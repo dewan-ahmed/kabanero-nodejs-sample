@@ -73,7 +73,7 @@ spec:
 
         tkn pipeline start nodejs-build-push-pl -r git-source=git-source-tmsp7 -r docker-image=docker-icr-image -s kabanero-pipeline
         echo "PipelineRun in progress..."
-        sleep 30
+        sleep 400
 
         oc secrets unlink kabanero-pipeline dewans-icr-secret
 
