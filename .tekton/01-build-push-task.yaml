@@ -84,7 +84,6 @@ echo "Done!"
     volumeMounts:
     - mountPath: /var/lib/containers
       name: varlibcontainers
-  
   volumes:
   - name: varlibcontainers
     emptyDir: {}
