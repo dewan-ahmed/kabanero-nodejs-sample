@@ -80,11 +80,11 @@ oc secrets unlink kabanero-pipeline dewans-icr-secret
 oc delete secret dewans-icr-secret --ignore-not-found=true
   
 echo "Done!"
-        
+
     volumeMounts:
     - mountPath: /var/lib/containers
       name: varlibcontainers
-
+  
   volumes:
   - name: varlibcontainers
     emptyDir: {}
